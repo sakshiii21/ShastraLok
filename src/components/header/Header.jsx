@@ -1,14 +1,15 @@
-import React from 'react'
-import {Link, NavLink} from 'react-router-dom'
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
+
     return (
-        <header className="shadow sticky z-50 top-0">
-            <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+        <header className="shadow sticky z-50 top-0 bg-white dark:bg-gray-900">
+            <nav className="border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                            src="https://i.pinimg.com/736x/92/b0/03/92b003b8cd2c8fdd884fc142ced16a72.jpg"
                             className="mr-3 h-12"
                             alt="Logo"
                         />
@@ -16,7 +17,7 @@ export default function Header() {
                     <div className="flex items-center lg:order-2">
                         <Link
                             to="#"
-                            className="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                            className="text-gray-800 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
                             Log in
                         </Link>
@@ -34,9 +35,9 @@ export default function Header() {
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             <li>
                                 <NavLink
-                                to="/"
-                                    className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    to="/"
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700 dark:text-white"} border-b border-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     Home
@@ -44,9 +45,9 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
-                                to="/scriptures"
-                                    className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    to="/scriptures"
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700 dark:text-white"} border-b border-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     Scriptures
@@ -54,25 +55,24 @@ export default function Header() {
                             </li>
                             <li>
                                 <NavLink
-                                to="/contact"
-                                    className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    to="/maps"
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700 dark:text-white"} border-b border-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                    Contact
+                                    Map
                                 </NavLink>
                             </li>
                             <li>
                                 <NavLink
-                                to="/github"
-                                    className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    to="/quiz"
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700 dark:text-white"} border-b border-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
-                                    Github
+                                    Quiz
                                 </NavLink>
                             </li>
-                            
                         </ul>
                     </div>
                 </div>
