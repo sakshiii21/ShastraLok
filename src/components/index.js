@@ -1,4 +1,4 @@
-import Home from "./Home/Home";
+import Home from "./home/Home";
 import Scriptures from "./scriptures/Scriptures";
 
 export { Home, Scriptures }; 

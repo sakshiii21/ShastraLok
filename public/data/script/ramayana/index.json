@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Bala Kanda",
+      "description": "The childhood of Lord Rama and his early adventures.",
+      "file": "1_balakanda.json"
+    },
+    {
+      "id": 2,
+      "name": "Ayodhya Kanda",
+      "description": "The exile of Lord Rama and his departure from Ayodhya.",
+      "file": "2_ayodhyakanda.json"
+    },
+    {
+      "id": 3,
+      "name": "Aranya Kanda",
+      "description": "Rama’s journey in the forest and Sita’s abduction.",
+      "file": "3_aranyakanda.json"
+    },
+    {
+      "id": 4,
+      "name": "Kishkindha Kanda",
+      "description": "Rama meets Hanuman and Sugriva; forms an alliance.",
+      "file": "4_kishkindhakanda.json"
+    },
+    {
+      "id": 5,
+      "name": "Sundara Kanda",
+      "description": "Hanuman’s leap to Lanka and his meeting with Sita.",
+      "file": "5_sundarakanda.json"
+    },
+    {
+      "id": 6,
+      "name": "Yuddha Kanda",
+      "description": "The great battle of Lanka and Rama’s victory.",
+      "file": "6_yudhhakanda.json"
+    },
+    {
+      "id": 7,
+      "name": "Uttara Kanda",
+      "description": "Rama’s rule and the conclusion of his divine mission.",
+      "file": "7_uttarakanda.json"
+    }
+  ]
+  

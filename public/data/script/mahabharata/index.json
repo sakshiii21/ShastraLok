@@ -1,0 +1,747 @@
+[
+    {
+        "id": 1,
+        "name": "Chapter One",
+        "file": "chapter_1.json"
+    },
+    {
+        "id": 2,
+        "name": "Chapter Commentary",
+        "file": "chapter_2.json"
+    },
+    {
+        "id": 3,
+        "name": "Chapter Two",
+        "file": "chapter_3.json"
+    },
+    {
+        "id": 4,
+        "name": "Chapter Commentary",
+        "file": "chapter_4.json"
+    },
+    {
+        "id": 5,
+        "name": "Chapter Three",
+        "file": "chapter_5.json"
+    },
+    {
+        "id": 6,
+        "name": "Chapter Commentary",
+        "file": "chapter_6.json"
+    },
+    {
+        "id": 7,
+        "name": "Chapter four",
+        "file": "chapter_7.json"
+    },
+    {
+        "id": 8,
+        "name": "Chapter Commentary",
+        "file": "chapter_8.json"
+    },
+    {
+        "id": 9,
+        "name": "Chapter Five",
+        "file": "chapter_9.json"
+    },
+    {
+        "id": 10,
+        "name": "Chapter Commentary",
+        "file": "chapter_10.json"
+    },
+    {
+        "id": 11,
+        "name": "Chapter Six",
+        "file": "chapter_11.json"
+    },
+    {
+        "id": 12,
+        "name": "Chapter Commentary",
+        "file": "chapter_12.json"
+    },
+    {
+        "id": 13,
+        "name": "Chapter Seven",
+        "file": "chapter_13.json"
+    },
+    {
+        "id": 14,
+        "name": "Chapter Commentary",
+        "file": "chapter_14.json"
+    },
+    {
+        "id": 15,
+        "name": "Chapter Eight",
+        "file": "chapter_15.json"
+    },
+    {
+        "id": 16,
+        "name": "Chapter Commentary",
+        "file": "chapter_16.json"
+    },
+    {
+        "id": 17,
+        "name": "Chapter Nine",
+        "file": "chapter_17.json"
+    },
+    {
+        "id": 18,
+        "name": "Chapter Commentary",
+        "file": "chapter_18.json"
+    },
+    {
+        "id": 19,
+        "name": "Chapter Ten",
+        "file": "chapter_19.json"
+    },
+    {
+        "id": 20,
+        "name": "Chapter Commentary",
+        "file": "chapter_20.json"
+    },
+    {
+        "id": 21,
+        "name": "Chapter Eleven",
+        "file": "chapter_21.json"
+    },
+    {
+        "id": 22,
+        "name": "Chapter Commentary",
+        "file": "chapter_22.json"
+    },
+    {
+        "id": 23,
+        "name": "Chapter Twelve",
+        "file": "chapter_23.json"
+    },
+    {
+        "id": 24,
+        "name": "Chapter Commentary",
+        "file": "chapter_24.json"
+    },
+    {
+        "id": 25,
+        "name": "Chapter Thirteen",
+        "file": "chapter_25.json"
+    },
+    {
+        "id": 26,
+        "name": "Chapter Commentary",
+        "file": "chapter_26.json"
+    },
+    {
+        "id": 27,
+        "name": "Chapter Fourteen",
+        "file": "chapter_27.json"
+    },
+    {
+        "id": 28,
+        "name": "Chapter Commentary",
+        "file": "chapter_28.json"
+    },
+    {
+        "id": 29,
+        "name": "Chapter Fifteen",
+        "file": "chapter_29.json"
+    },
+    {
+        "id": 30,
+        "name": "Chapter Commentary",
+        "file": "chapter_30.json"
+    },
+    {
+        "id": 31,
+        "name": "Chapter Sixteen",
+        "file": "chapter_31.json"
+    },
+    {
+        "id": 32,
+        "name": "Chapter Commentary",
+        "file": "chapter_32.json"
+    },
+    {
+        "id": 33,
+        "name": "Chapter Seventeen",
+        "file": "chapter_33.json"
+    },
+    {
+        "id": 34,
+        "name": "Chapter Commentary",
+        "file": "chapter_34.json"
+    },
+    {
+        "id": 35,
+        "name": "Chapter Eighteen",
+        "file": "chapter_35.json"
+    },
+    {
+        "id": 36,
+        "name": "Chapter Commentary",
+        "file": "chapter_36.json"
+    },
+    {
+        "id": 37,
+        "name": "Chapter Nineteen",
+        "file": "chapter_37.json"
+    },
+    {
+        "id": 38,
+        "name": "Chapter Commentary",
+        "file": "chapter_38.json"
+    },
+    {
+        "id": 39,
+        "name": "Chapter One",
+        "file": "chapter_39.json"
+    },
+    {
+        "id": 40,
+        "name": "Chapter Commentary",
+        "file": "chapter_40.json"
+    },
+    {
+        "id": 41,
+        "name": "Chapter Two",
+        "file": "chapter_41.json"
+    },
+    {
+        "id": 42,
+        "name": "Chapter Commentary",
+        "file": "chapter_42.json"
+    },
+    {
+        "id": 43,
+        "name": "Chapter Three",
+        "file": "chapter_43.json"
+    },
+    {
+        "id": 44,
+        "name": "Chapter Commentary",
+        "file": "chapter_44.json"
+    },
+    {
+        "id": 45,
+        "name": "Chapter Four",
+        "file": "chapter_45.json"
+    },
+    {
+        "id": 46,
+        "name": "Chapter Commentary",
+        "file": "chapter_46.json"
+    },
+    {
+        "id": 47,
+        "name": "Chapter Five",
+        "file": "chapter_47.json"
+    },
+    {
+        "id": 48,
+        "name": "Chapter Commentary",
+        "file": "chapter_48.json"
+    },
+    {
+        "id": 49,
+        "name": "Chapter Six",
+        "file": "chapter_49.json"
+    },
+    {
+        "id": 50,
+        "name": "Chapter Commentary",
+        "file": "chapter_50.json"
+    },
+    {
+        "id": 51,
+        "name": "Chapter seven",
+        "file": "chapter_51.json"
+    },
+    {
+        "id": 52,
+        "name": "Chapter Commentary",
+        "file": "chapter_52.json"
+    },
+    {
+        "id": 53,
+        "name": "Chapter Eight",
+        "file": "chapter_53.json"
+    },
+    {
+        "id": 54,
+        "name": "Chapter Commentary",
+        "file": "chapter_54.json"
+    },
+    {
+        "id": 55,
+        "name": "Chapter Nine",
+        "file": "chapter_55.json"
+    },
+    {
+        "id": 56,
+        "name": "Chapter Commentary",
+        "file": "chapter_56.json"
+    },
+    {
+        "id": 57,
+        "name": "Chapter Ten",
+        "file": "chapter_57.json"
+    },
+    {
+        "id": 58,
+        "name": "Chapter Commentary",
+        "file": "chapter_58.json"
+    },
+    {
+        "id": 59,
+        "name": "Chapter Eleven",
+        "file": "chapter_59.json"
+    },
+    {
+        "id": 60,
+        "name": "Chapter Commentary",
+        "file": "chapter_60.json"
+    },
+    {
+        "id": 61,
+        "name": "Chapter One",
+        "file": "chapter_61.json"
+    },
+    {
+        "id": 62,
+        "name": "Chapter Commentary",
+        "file": "chapter_62.json"
+    },
+    {
+        "id": 63,
+        "name": "Chapter Two",
+        "file": "chapter_63.json"
+    },
+    {
+        "id": 64,
+        "name": "Chapter Commentary",
+        "file": "chapter_64.json"
+    },
+    {
+        "id": 65,
+        "name": "Chapter Three",
+        "file": "chapter_65.json"
+    },
+    {
+        "id": 66,
+        "name": "Chapter Commentary",
+        "file": "chapter_66.json"
+    },
+    {
+        "id": 67,
+        "name": "Chapter Four",
+        "file": "chapter_67.json"
+    },
+    {
+        "id": 68,
+        "name": "Chapter Commentary",
+        "file": "chapter_68.json"
+    },
+    {
+        "id": 69,
+        "name": "Chapter Five",
+        "file": "chapter_69.json"
+    },
+    {
+        "id": 70,
+        "name": "Chapter Commentary",
+        "file": "chapter_70.json"
+    },
+    {
+        "id": 71,
+        "name": "Chapter Six",
+        "file": "chapter_71.json"
+    },
+    {
+        "id": 72,
+        "name": "Chapter Commentary",
+        "file": "chapter_72.json"
+    },
+    {
+        "id": 73,
+        "name": "Chapter One",
+        "file": "chapter_73.json"
+    },
+    {
+        "id": 74,
+        "name": "Chapter Commentary",
+        "file": "chapter_74.json"
+    },
+    {
+        "id": 75,
+        "name": "Chapter Two",
+        "file": "chapter_75.json"
+    },
+    {
+        "id": 76,
+        "name": "Chapter Commentary",
+        "file": "chapter_76.json"
+    },
+    {
+        "id": 77,
+        "name": "Chapter Three",
+        "file": "chapter_77.json"
+    },
+    {
+        "id": 78,
+        "name": "Chapter Commentary",
+        "file": "chapter_78.json"
+    },
+    {
+        "id": 79,
+        "name": "Chapter Four",
+        "file": "chapter_79.json"
+    },
+    {
+        "id": 80,
+        "name": "Chapter Commentary",
+        "file": "chapter_80.json"
+    },
+    {
+        "id": 81,
+        "name": "Chapter Five",
+        "file": "chapter_81.json"
+    },
+    {
+        "id": 82,
+        "name": "Chapter Commentary",
+        "file": "chapter_82.json"
+    },
+    {
+        "id": 83,
+        "name": "Chapter One",
+        "file": "chapter_83.json"
+    },
+    {
+        "id": 84,
+        "name": "Chapter Commentary",
+        "file": "chapter_84.json"
+    },
+    {
+        "id": 85,
+        "name": "Chapter Two",
+        "file": "chapter_85.json"
+    },
+    {
+        "id": 86,
+        "name": "Chapter Commentary",
+        "file": "chapter_86.json"
+    },
+    {
+        "id": 87,
+        "name": "Chapter Three",
+        "file": "chapter_87.json"
+    },
+    {
+        "id": 88,
+        "name": "Chapter Commentary",
+        "file": "chapter_88.json"
+    },
+    {
+        "id": 89,
+        "name": "Chapter Four",
+        "file": "chapter_89.json"
+    },
+    {
+        "id": 90,
+        "name": "Chapter Five",
+        "file": "chapter_90.json"
+    },
+    {
+        "id": 91,
+        "name": "Chapter of the Udyoga Parva, Ennamed, The Colossal Armies Move to Kurukshetra.",
+        "file": "chapter_91.json"
+    },
+    {
+        "id": 92,
+        "name": "Chapter of the Udyoga Parva, Ennamed, Bhishma Assesses the Heroes and Reveals the Mystery of Shikhandi's Birth.",
+        "file": "chapter_92.json"
+    },
+    {
+        "id": 93,
+        "name": "Chapter Commentary",
+        "file": "chapter_93.json"
+    },
+    {
+        "id": 94,
+        "name": "Chapter One",
+        "file": "chapter_94.json"
+    },
+    {
+        "id": 95,
+        "name": "Chapter Two",
+        "file": "chapter_95.json"
+    },
+    {
+        "id": 96,
+        "name": "Chapter Four",
+        "file": "chapter_96.json"
+    },
+    {
+        "id": 97,
+        "name": "Chapter Five",
+        "file": "chapter_97.json"
+    },
+    {
+        "id": 98,
+        "name": "Chapter Seven",
+        "file": "chapter_98.json"
+    },
+    {
+        "id": 99,
+        "name": "Chapter Eight",
+        "file": "chapter_99.json"
+    },
+    {
+        "id": 100,
+        "name": "Chapter Ten",
+        "file": "chapter_100.json"
+    },
+    {
+        "id": 101,
+        "name": "Chapter Eleven",
+        "file": "chapter_101.json"
+    },
+    {
+        "id": 102,
+        "name": "Chapter Thirteen",
+        "file": "chapter_102.json"
+    },
+    {
+        "id": 103,
+        "name": "Chapter Fourteen",
+        "file": "chapter_103.json"
+    },
+    {
+        "id": 104,
+        "name": "Chapter Sixteen",
+        "file": "chapter_104.json"
+    },
+    {
+        "id": 105,
+        "name": "Chapter Seventeen",
+        "file": "chapter_105.json"
+    },
+    {
+        "id": 106,
+        "name": "Chapter Two",
+        "file": "chapter_106.json"
+    },
+    {
+        "id": 107,
+        "name": "Chapter Three",
+        "file": "chapter_107.json"
+    },
+    {
+        "id": 108,
+        "name": "Chapter Commentary",
+        "file": "chapter_108.json"
+    },
+    {
+        "id": 109,
+        "name": "Chapter Four",
+        "file": "chapter_109.json"
+    },
+    {
+        "id": 110,
+        "name": "Chapter Commentary",
+        "file": "chapter_110.json"
+    },
+    {
+        "id": 111,
+        "name": "Chapter Five",
+        "file": "chapter_111.json"
+    },
+    {
+        "id": 112,
+        "name": "Chapter Commentary",
+        "file": "chapter_112.json"
+    },
+    {
+        "id": 113,
+        "name": "Chapter of the Bhishma Parva, Ennamed, The Fifth and Sixth s of the Great Battle.",
+        "file": "chapter_113.json"
+    },
+    {
+        "id": 114,
+        "name": "Chapter of the Bhishma Parva, Ennamed, The Seventh  of the Great Battle.",
+        "file": "chapter_114.json"
+    },
+    {
+        "id": 115,
+        "name": "Chapter Eight",
+        "file": "chapter_115.json"
+    },
+    {
+        "id": 116,
+        "name": "Chapter Nine",
+        "file": "chapter_116.json"
+    },
+    {
+        "id": 117,
+        "name": "Chapter of the Bhishma Parva, Ennamed, The Ninth  of the Great Battle; The Invincible Bhishma.",
+        "file": "chapter_117.json"
+    },
+    {
+        "id": 118,
+        "name": "Chapter of the Bhishma Parva, Ennamed, The Tenth  of Hostilities; The Fall of the Grandsire Bhishma.",
+        "file": "chapter_118.json"
+    },
+    {
+        "id": 119,
+        "name": "Chapter One",
+        "file": "chapter_119.json"
+    },
+    {
+        "id": 120,
+        "name": "Chapter Commentary",
+        "file": "chapter_120.json"
+    },
+    {
+        "id": 121,
+        "name": "Chapter Two",
+        "file": "chapter_121.json"
+    },
+    {
+        "id": 122,
+        "name": "Chapter Commentary",
+        "file": "chapter_122.json"
+    },
+    {
+        "id": 123,
+        "name": "Chapter Three",
+        "file": "chapter_123.json"
+    },
+    {
+        "id": 124,
+        "name": "Chapter Commentary",
+        "file": "chapter_124.json"
+    },
+    {
+        "id": 125,
+        "name": "Chapter Four",
+        "file": "chapter_125.json"
+    },
+    {
+        "id": 126,
+        "name": "Chapter Commentary",
+        "file": "chapter_126.json"
+    },
+    {
+        "id": 127,
+        "name": "Chapter Five",
+        "file": "chapter_127.json"
+    },
+    {
+        "id": 128,
+        "name": "Chapter Six",
+        "file": "chapter_128.json"
+    },
+    {
+        "id": 129,
+        "name": "Chapter of the Drona Parva, Ennamed, Arjuna Continues His Path of Destruction.",
+        "file": "chapter_129.json"
+    },
+    {
+        "id": 130,
+        "name": "Chapter of the Drona Parva, Ennamed, Satyaki Follows the Path of Arjuna.",
+        "file": "chapter_130.json"
+    },
+    {
+        "id": 131,
+        "name": "Chapter Eight",
+        "file": "chapter_131.json"
+    },
+    {
+        "id": 132,
+        "name": "Chapter Nine",
+        "file": "chapter_132.json"
+    },
+    {
+        "id": 133,
+        "name": "Chapter of the Drona Parva, Ennamed, The Death of Jayadratha.",
+        "file": "chapter_133.json"
+    },
+    {
+        "id": 134,
+        "name": "Chapter of the Drona Parva, Ennamed, The Death of Ghatotkacha.",
+        "file": "chapter_134.json"
+    },
+    {
+        "id": 135,
+        "name": "Chapter Ten",
+        "file": "chapter_135.json"
+    },
+    {
+        "id": 136,
+        "name": "Chapter Commentary",
+        "file": "chapter_136.json"
+    },
+    {
+        "id": 137,
+        "name": "Chapter One",
+        "file": "chapter_137.json"
+    },
+    {
+        "id": 138,
+        "name": "Chapter Two",
+        "file": "chapter_138.json"
+    },
+    {
+        "id": 139,
+        "name": "Chapter of the Karna Parva, ennamed, Salya becomes Karna's Charioteer.",
+        "file": "chapter_139.json"
+    },
+    {
+        "id": 140,
+        "name": "Chapter of the Karna Parva, Ennamed, Lord Krishna Saves Yudhisthira from Death.",
+        "file": "chapter_140.json"
+    },
+    {
+        "id": 141,
+        "name": "Chapter Commentary",
+        "file": "chapter_141.json"
+    },
+    {
+        "id": 142,
+        "name": "Chapter of the Karna Parva, ennamed, The Death of Karna.",
+        "file": "chapter_142.json"
+    },
+    {
+        "id": 143,
+        "name": "Chapter Commentary",
+        "file": "chapter_143.json"
+    },
+    {
+        "id": 144,
+        "name": "Chapter of the Salya Parva, Ennamed, The Death of Salya.",
+        "file": "chapter_144.json"
+    },
+    {
+        "id": 145,
+        "name": "Chapter Two",
+        "file": "chapter_145.json"
+    },
+    {
+        "id": 146,
+        "name": "Chapter Commentary",
+        "file": "chapter_146.json"
+    },
+    {
+        "id": 147,
+        "name": "Chapter One",
+        "file": "chapter_147.json"
+    },
+    {
+        "id": 148,
+        "name": "Chapter Two",
+        "file": "chapter_148.json"
+    },
+    {
+        "id": 149,
+        "name": "Chapter of the Sauptika Parva, Ennamed, The Son of Drona Punished.",
+        "file": "chapter_149.json"
+    }
+]

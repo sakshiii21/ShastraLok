@@ -35,7 +35,8 @@ export default function Quiz() {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10 p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
+    <div className="container w-full py-10 px-25 text-center bg-[#F4E4BA] h-full min-w-full">
+    <div className="max-w-lg bg-[#B86F25] mx-auto mt-10 p-6 dark:bg-gray-800 shadow-lg rounded-lg">
       {showResult ? (
         <div className="text-center">
           <h2 className="text-2xl font-semibold dark:text-white">Quiz Completed!</h2>
@@ -63,6 +64,7 @@ export default function Quiz() {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 }

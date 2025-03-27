@@ -3,7 +3,7 @@ import MapComponent from "../map/MapComponent";
 
 const Map = () => {
   return (
-    <div className="container mx-auto py-10 px-4 text-center">
+    <div className="container w-full py-10 px-25 text-center bg-[#F4E4BA] h-full min-h-screen min-w-full">
       <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
         📍 Explore Sacred Locations
       </h1>
