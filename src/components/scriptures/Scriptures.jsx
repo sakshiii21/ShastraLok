@@ -1,7 +1,8 @@
+
 import { useState } from "react";
-import { BookOpenIcon } from "@heroicons/react/24/outline";
 import scriptures from "../../data/scriptures";
 import { Link } from "react-router-dom";
+import { Book } from "./Book";
 
 export default function Scriptures() {
   const [search, setSearch] = useState("");
@@ -52,19 +53,18 @@ export default function Scriptures() {
               to={`/scriptures/${scripture.name.toLowerCase()}`} // Navigate to detailed page
               className="no-underline"
             >
-            <div
-              key={scripture.id}
-              className="border p-4 rounded-lg shadow-lg bg-white flex items-center gap-4 hover:bg-gray-100 transition"
-              
-            >
-            
-              <BookOpenIcon className="h-10 w-10 text-indigo-600" />
-              <div>
-                <h2 className="text-xl font-semibold">{scripture.name}</h2>
-                <p className="text-gray-600">{scripture.category}</p>
-                <p className="text-sm text-gray-700">{scripture.description}</p>
+              <div
+                key={scripture.id}
+                className="border p-4 rounded-lg shadow-lg bg-[#1E1006] flex items-center gap-4 hover:bg-[#F4E4BA] transition"
+              >
+                {/* Ensure each book gets a unique image */}
+                <Book href={scripture.imageUrl} />
+                <div>
+                  <h2 className="text-xl font-semibold text-[#FED141]">{scripture.name}</h2>
+                  <p className="text-[#B86F25]">{scripture.category}</p>
+                  <p className="text-sm text-[#FED141]">{scripture.description}</p>
+                </div>
               </div>
-            </div>
             </Link>
           ))
         ) : (
@@ -74,3 +74,4 @@ export default function Scriptures() {
     </div>
   );
 }
+
