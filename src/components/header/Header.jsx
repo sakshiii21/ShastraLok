@@ -74,6 +74,16 @@ export default function Header() {
                                     Quiz
                                 </NavLink>
                             </li>
+                            <li>
+                                <NavLink
+                                    to="/flux"
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-[#B86F25]" : "text-[#F4E4BA] dark:text-white"} border-b border-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800 lg:hover:bg-transparent lg:border-0 hover:text-[#FED141] lg:p-0`
+                                    }
+                                >
+                                    AI
+                                </NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -9,6 +9,7 @@ import Map from './components/map/Map.jsx';
 import Quiz from './components/quiz/Quiz.jsx';
 import ScriptureChapter from './components/scriptures/ScripturesChapter.jsx';
 import ScriptureList from './components/scriptures/ScripturesList.jsx';
+import FluxPage from './components/fluxAI/FluxPage.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
           <Route path="scriptures/:scriptureName/:id" element={<ScriptureChapter />} />
           <Route path="Maps" element={<Map/>} />
           <Route path="quiz" element={<Quiz />} />
+          <Route path="flux" element={<FluxPage />} />
           
       </Route>
   )

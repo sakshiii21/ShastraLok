@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export function Book({ href }) {
+export function Book({ href}) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -16,14 +16,14 @@ export function Book({ href }) {
         <img
           src={href}
           alt="Book Cover"
-          className="FrontCover w-full h-full absolute rounded-r rounded-l-[3px] shadow-lg"
+          className="FrontCover w-full h-full absolute rounded-r rounded-l-[3px] shadow-lg z-50"
         />
         
         {/* Pages */}
-        <div className="Pages bg-white h-[248px] w-[50px] top-[6px] absolute left-0 shadow-md" />
+        <div className="Pages bg-white h-[248px] w-[50px] top-[6px] absolute left-0 shadow-md z-10" />
 
         {/* Back Cover */}
-        <div className="BackCover bg-[#01060f] h-[260px] w-[200px] left-0 absolute rounded-r shadow-lg" />
+        <div className="BackCover bg-[#01060f] h-[260px] w-[200px] left-0 absolute rounded-r shadow-lg z-0" />
       </div>
     </div>
   );
