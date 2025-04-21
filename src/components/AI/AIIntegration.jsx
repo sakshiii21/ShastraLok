@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Client } from "@gradio/client";
-// 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
 const AIIntegration = () => {
   const [prompt, setPrompt] = useState("Hello!");
   const [imageUrl, setImageUrl] = useState(null);
