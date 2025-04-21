@@ -55,7 +55,7 @@ export default function Scriptures() {
             >
               <div
                 key={scripture.id}
-                className="border p-4 rounded-lg shadow-lg bg-[#1E1006] flex items-center gap-4 hover:bg-[#F4E4BA] transition"
+                className="border p-4 rounded-lg shadow-lg bg-[#1E1006] flex items-center gap-4 hover: transition"
               >
                 {/* Ensure each book gets a unique image */}
                 <Book href={scripture.imageUrl} />

@@ -10,7 +10,9 @@ const Map = () => {
       <p className="text-gray-600 dark:text-gray-300 mb-4">
         Discover key locations from Hindu scriptures.
       </p>
+      <div className="flex justify-center items-center h-full z-0">
       <MapComponent />
+      </div>
     </div>
   );
 };

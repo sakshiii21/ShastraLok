@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import 'leaflet/dist/leaflet.css';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import {Home,Scriptures} from './components/index.js';
 import Layout from './Layout.jsx'
@@ -9,7 +10,7 @@ import Map from './components/map/Map.jsx';
 import Quiz from './components/quiz/Quiz.jsx';
 import ScriptureChapter from './components/scriptures/ScripturesChapter.jsx';
 import ScriptureList from './components/scriptures/ScripturesList.jsx';
-import FluxPage from './components/fluxAI/FluxPage.jsx';
+import AIIntegration from './components/Ai/AiIntegration.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,7 +21,7 @@ const router = createBrowserRouter(
           <Route path="scriptures/:scriptureName/:id" element={<ScriptureChapter />} />
           <Route path="Maps" element={<Map/>} />
           <Route path="quiz" element={<Quiz />} />
-          <Route path="flux" element={<FluxPage />} />
+          <Route path="ai" element={<AIIntegration />} />
           
       </Route>
   )
