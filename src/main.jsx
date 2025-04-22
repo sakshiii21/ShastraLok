@@ -21,7 +21,7 @@ const router = createBrowserRouter(
           <Route path="scriptures/:scriptureName/:id" element={<ScriptureChapter />} />
           <Route path="Maps" element={<Map/>} />
           <Route path="quiz" element={<Quiz />} />
-          <Route path="ai" element={<AIIntegration />} />
+          <Route path="ai" element={<AIIntegration  />} />
           
       </Route>
   )
