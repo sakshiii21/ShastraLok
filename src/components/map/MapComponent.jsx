@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, GeoJSON } from "react-leaflet";
+import { Icon } from "leaflet"; // Importing Icon from Leaflet
 import "leaflet/dist/leaflet.css";
+import mapMarker from '../../assets/map.webp'; // Path to your custom marker image
 
 // Locations data
 const locations = [
@@ -40,6 +42,14 @@ const MapComponent = () => {
     fillColor: "lightblue", // Fill color for areas
     fillOpacity: 0.5,       // Fill opacity
   };
+
+  // Create a custom icon for the markers
+  const customIcon = new Icon({
+    iconUrl: mapMarker, // Path to your custom marker image
+    iconSize: [32, 32], // Size of the marker
+    iconAnchor: [16, 32], // Point of the icon that will be at the marker's position
+    popupAnchor: [0, -32], // Position of the popup relative to the icon
+  });
 
   return (
     <div className="w-full">
@@ -95,7 +105,7 @@ const MapComponent = () => {
 
         {/* Markers for Sacred Places */}
         {filteredLocations.map((loc, index) => (
-          <Marker key={index} position={loc.coords}>
+          <Marker key={index} position={loc.coords} icon={customIcon}>
             <Popup>
               <strong>{loc.name}</strong><br />
               Scripture: {loc.scripture}<br />
