@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import bookCover from '../../assets/book2.png';
+import backImg from '../../assets/background.jpg';
 
 export default function AncientBook() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[url('https://e0.pxfuel.com/wallpapers/329/960/desktop-wallpaper-a-s-creation-floral-beige-cream-gold-metallic-370572-metallic-floral.jpg')]  bg-center">
+    <div
+      className="min-h-screen flex items-center justify-center bg-center"
+      style={{ backgroundImage: `url(${backImg})` }}
+    >
       <div className="relative w-[500px] h-[600px]">
         {/* Book Cover */}
         <motion.div
