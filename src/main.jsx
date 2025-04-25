@@ -10,7 +10,7 @@ import Map from './components/map/Map.jsx';
 import Quiz from './components/quiz/Quiz.jsx';
 import ScriptureChapter from './components/scriptures/ScripturesChapter.jsx';
 import ScriptureList from './components/scriptures/ScripturesList.jsx';
-import AIIntegration from './components/Ai/AiIntegration.jsx';
+import AIIntegration from './components/AI/AIIntegration.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
