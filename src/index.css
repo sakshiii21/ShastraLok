@@ -1,3 +1,9 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 @import "leaflet/dist/leaflet.css";
+@layer utilities {
+    .leaflet-container {
+      z-index: 0 !important;
+    }
+  }
+  

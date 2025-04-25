@@ -23,7 +23,27 @@ export default function ScriptureChapter() {
         if (!chapterResponse.ok) return;
 
         const chapterData = await chapterResponse.json();
-        setShlokas(chapterData);
+
+        // Normalize the data based on the scripture
+        let normalizedData = [];
+        if (scriptureName.toLowerCase() === "ramayana") {
+          normalizedData = chapterData.map((shloka) => ({
+            title: `${shloka.kaanda} - Sarg ${shloka.sarg}, Shloka ${shloka.shloka}`,
+            text: shloka.text,
+          }));
+        } else if (scriptureName.toLowerCase() === "mahabharata") {
+          normalizedData = [{
+            title: chapterEntry.name,
+            text: chapterData.content,
+          }];
+        } else if (scriptureName.toLowerCase() === "bhagavad gita") {
+          normalizedData = [{
+            title: chapterData.name_translation || chapterData.name,
+            text: chapterData.chapter_summary,
+          }];
+        }
+
+        setShlokas(normalizedData);
       } catch {
         setShlokas([]);
       }
@@ -45,14 +65,14 @@ export default function ScriptureChapter() {
     <div className="bg-[#F4E4BA] text-white min-h-screen p-6">
       {chapterInfo && (
         <h1 className="text-4xl font-bold text-center mb-8 text-[#1E1006]">
-          {chapterInfo.name} - Sarg {id}
+          {chapterInfo.name} - Chapter {id}
         </h1>
       )}
 
       {shlokas.map((shloka, index) => (
         <div key={index} className="bg-[#1E1006] p-6 rounded-xl shadow-lg mb-6">
           <h2 className="text-2xl font-semibold text-[#F4E4BA] mb-2">
-            {shloka.kaanda} - Sarg {shloka.sarg}, Shloka {shloka.shloka}
+            {shloka.title}
           </h2>
           <p className="text-[#F4E4BA] text-xl leading-relaxed">{shloka.text}</p>
         </div>

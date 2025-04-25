@@ -31,7 +31,7 @@ export default function ScriptureList() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {chapters.length > 0 ? (
           chapters.map((chapter) => (
-            <Link key={chapter.id} to={`/scriptures/${scriptureName}/${chapter.id}`} className="no-underline">
+            <Link key={chapter.id} to={`/scriptures/${scriptureName.toLowerCase()}/${chapter.id}`} className="no-underline">
               <div className="border p-6 rounded-xl shadow-lg bg-[#1E1006] hover:bg-gray-700 transition cursor-pointer">
                 <h2 className="text-2xl font-semibold text-[#F4E4BA]">{chapter.name}</h2>
                 <p className="text-[#F4E4BA] mt-2">{chapter.description}</p>

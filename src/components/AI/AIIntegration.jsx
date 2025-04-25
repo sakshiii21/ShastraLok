@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Client } from "@gradio/client";
 
 const AIIntegration = () => {
-  const [prompt, setPrompt] = useState("for ex. ");
+  const [prompt, setPrompt] = useState("for ex.Indra’s court in the heavens, decorated with shimmering jewels and floating lotuses, as devas gather to seek counsel on restoring balance in the universe");
   const [imageUrl, setImageUrl] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -15,7 +15,7 @@ const AIIntegration = () => {
 
   // Keywords to validate relevant prompts
   const allowedKeywords = [
-    "veda", "rigveda", "samaveda", "yajurveda", "atharvaveda", "upanishad", "shastra", "scripture",
+    "veda", "rigveda","yamraj","yamraja", "samaveda", "yajurveda", "atharvaveda", "upanishad", "shastra", "scripture",
     "ramayana", "mahabharata", "bhagavad gita", "bhagavadgita", "krishna", "rama", "hanuman",
     "sita", "lakshmana", "bharata", "shatrughna", "arjuna", "bhima", "nakula", "sahadeva", "draupadi",
     "karna", "duryodhana", "ashwatthama", "vedavyasa", "sanskrit", "yajna", "homa", "havans", "ritual",
