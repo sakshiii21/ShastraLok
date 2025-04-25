@@ -6,6 +6,8 @@ const AIIntegration = () => {
   const [imageUrl, setImageUrl] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const modelId = import.meta.env.VITE_FLUX_MODEL;
+
 
   const steps = 25;
   const width = 512;
@@ -66,7 +68,7 @@ const AIIntegration = () => {
     setIsLoading(true);
 
     try {
-      const client = await Client.connect("black-forest-labs/FLUX.1-schnell");
+      const client = await Client.connect(modelId);
       const response = await client.predict("/infer", {
         prompt,
         seed,
